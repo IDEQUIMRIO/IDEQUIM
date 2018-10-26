@@ -24,7 +24,7 @@ h2{
 
 }
 .caption{
-    width: 40%;
+    width: 50%;
 
 }
 section{
@@ -71,7 +71,7 @@ section{
     background: url(images/lista_productos/botella1.png) 50% 0 no-repeat fixed;
     height: 1500px;
     right: 600%;
-    top: 500px;
+    
 }
 
 
