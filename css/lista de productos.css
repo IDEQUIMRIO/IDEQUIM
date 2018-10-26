@@ -1,9 +1,82 @@
-body{
+
+*{
     margin: 0;
     padding: 0;
-background:rgb(0, 0, 0);
+}
+
+body{
+    
+    
+    font-family: tahoma;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(190, 190, 190);
+}
+
+
+/*parallax**/
+h2{
+    font-size: 32px;
+    line-height:  30px;
+    font-weight: bold;
+    margin-bottom: 1em;
 
 }
+.caption{
+    width: 30%;
+
+}
+section{
+    position: relative;
+
+}
+.caption{
+    position: absolute;
+   
+
+}
+#intro .caption{
+    top: 100px;
+    left: 200px;
+    
+}
+#second .caption{
+    top: 150px;
+    right: 100px;
+}
+#third .caption{
+    bottom: 100px;
+    left: 100px;
+
+}
+#intro{
+   
+    background: url(images/lista_productos/1fondo.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 770px;
+    
+}
+#second{
+    background:  url(images/lista_productos/2fondo.jpg) 50% 0 no-repeat fixed;
+    height: 1300px;
+    overflow: hidden;
+}
+#third{
+    background: url(images/lista_productos/3fondo.jpg) 50% 0 no-repeat fixed;
+    height: 600px;
+    padding-bottom: 300px;
+}
+.shoe{
+    background: url(images/lista_productos/botella1.png) 50% 0 no-repeat fixed;
+    height: 1500px;
+    right: 600%;
+}
+
+
+/* fin     parallax**/
+
+
+/*seccion de paginas**/
 section{
 width: 100%;
 height: 100vh;
@@ -67,3 +140,4 @@ a:hover:before{
     top: 70%;
 
 }
+/*  fin    seccion de paginas**/
